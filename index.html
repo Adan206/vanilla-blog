@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vanilla Blog</title>
+  </head>
+  <body>
+    <h1>Vanilla Blog</h1>
+    <h2>Adan Abbi</h2>
+    <section id="article-section">
+      <article>
+        <h3>My first Artice</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis,
+          veniam.
+        </p>
+      </article>
+    </section>
+    <section id="forms">
+      <form onsubmit="createArticle(event)">
+        <label for="article-title">Article title</label>
+        <input type="text" id="article-title" name="article-title" />
+        <label for="article-content">Article content</label>
+        <textarea
+          name="article-content"
+          id="article-content"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="submit" />
+      </form>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
