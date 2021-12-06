@@ -4,7 +4,6 @@ body {
   padding: 0;
   height: 100%;
   font-family: sans-serif;
-  background-color: #ccc;
 }
 
 article {
@@ -13,5 +12,28 @@ article {
   background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
-  margin-top: 1rem;
+  margin: 1rem;
+  display: inline-block;
+}
+
+#forms {
+  background-color: red;
+  height: 300px;
+  padding: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#article-section {
+  background-color: yellow;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
