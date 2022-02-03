@@ -30,6 +30,8 @@ form {
 
 #article-section {
   background-color: yellow;
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
